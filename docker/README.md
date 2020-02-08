@@ -8,7 +8,7 @@
 `docker build -t systat-image ./`
 
 ## run
-`docker run -v C:\project\linux\sysstat\docker\log:/home/sysstat-log --privileged --name sysstat-test -idt systat-image /bin/bash`
+`docker run -v C:\project\linux\docker\log:/home/sysstat-log --privileged --name sysstat-test -idt systat-image /bin/bash`
 
 ## attach
 `docker attach sysstat-test`
