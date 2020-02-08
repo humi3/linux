@@ -1,2 +1,3 @@
 # linux
 * sysstat
+* stress
